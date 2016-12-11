@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+body{
+	font: 400 18px/26px 'Ubuntu', sans-serif;
+	background:#fff;
+    padding:10px;
+}
+a{
+	text-decoration: none;
+    color:black;
+}
+ul li{
+    list-style: none;
+}
+i{
+    font: normal 20px/1 'FontAwesome';
+}
+.wrapper, .header_content, .container{
+    max-width: 1200px;
+    margin:auto;
+    padding:0 50px;
+}
+.header_content{
+    height:100px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background: #fff;
+    opacity: 0.9;
+    z-index: 5;
+}
+.header_left{
+    height:100px;
+    line-height: 100px;
+}
+.menu_hidden_but{
+    display:block;
+    float:right;
+    height:100px;
+    line-height: 100px;
+    opacity: 1;
+}
+.menu_hidden_but:hover, .header_left:hover{
+    color: lightslategray;
+}
+.menu_hidden{
+    display: none;
+    position: absolute;
+    top:80px;
+    right:0;
+    margin-right: 50px;
+    padding: 16px;
+    border-radius: 4px;
+    background: lightslategray;
+    color:white;
+    box-shadow: -7px 7px 15px 0px rgba(128,128,125,0.69);
+    opacity: 1;
+}
+.menu_hidden_item a{
+    color:white;
+}
+.menu_hidden_item:hover a{
+    text-decoration: underline;
+}
+.wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden; 
+    text-align:center;
+}
+h1, h2{
+    font-size:18px;
+    font-weight:700;
+    text-transform: uppercase;
+    padding:10px 0;
+}
+.portfolio{
+    padding-bottom: 46px;
+}
+.portfolio_elements li{
+    font:300 54px/58px 'Cormorant', serif; 
+}
+.portfolio_elements li a:hover, .portfolio_elements li a:active{
+    font-weight:500;
+}
+#portfolio_element_1:hover img{
+    display: block !important;
+}
+.img{
+    display: none;
+    position: fixed;
+    z-index:-50;
+}
+.img1{
+    top:5%;
+    left:3%;
+}
+
+.img2{
+    bottom:5%;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.inline_link{
+    text-decoration: underline;
+}
+.inline_link:hover{
+    color: lightslategray;
+}
+.container{
+    margin-top:100px;
+}
+.description{
+    padding:10px 0;
+}
+.description_item:before{
+    content: '\f00c';
+    font: normal 13px/1 'FontAwesome';
+    padding-right:10px;
+}
+.container_img{
+    padding-top:80px;
+}
+.container_img_item{
+    width:100%;
+    height: auto;
+    margin-bottom:80px;
+}
