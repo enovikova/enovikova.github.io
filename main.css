@@ -19,7 +19,7 @@ ul li{
 i{
     font: normal 20px/1 'FontAwesome';
 }
-.wrapper, .header_content, .container{
+.content, .header_content, .container{
     max-width: 1200px;
     margin:auto;
     padding:0 50px;
@@ -33,6 +33,9 @@ i{
     background: #fff;
     opacity: 0.9;
     z-index: 5;
+}
+.header_content.mainpage{
+    background: transparent;
 }
 .header_left{
     height:100px;
@@ -77,6 +80,7 @@ i{
     display: flex;
     align-items: center;
     -webkit-align-items: center;
+    text-align: center;
 }
 h1, h2{
     font-size:18px;
@@ -136,4 +140,29 @@ h1, h2{
     width:100%;
     height: auto;
     margin-bottom:80px;
+}
+
+/*IPAD*/
+@media screen and (max-width: 990px){ 
+    h1, h2{
+        font-size:1.3em;
+    }
+    .portfolio_elements li{
+        font-size:70px;
+        line-height:75px;
+    }
+    .fa.fa-envelope-o.fa-2x, .fa.fa-times.fa-2x{
+        font-size:3em;
+    }
+    .resume div{
+        font-size:1.3em;
+    }
+    .content{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 770px ){
+    .wrapper.content{
+        margin-top: 30%;
+    }
 }
