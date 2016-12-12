@@ -142,27 +142,3 @@ h1, h2{
     margin-bottom:80px;
 }
 
-/*IPAD*/
-@media screen and (max-width: 990px){ 
-    h1, h2{
-        font-size:1.3em;
-    }
-    .portfolio_elements li{
-        font-size:70px;
-        line-height:75px;
-    }
-    .fa.fa-envelope-o.fa-2x, .fa.fa-times.fa-2x{
-        font-size:3em;
-    }
-    .resume div{
-        font-size:1.3em;
-    }
-    .content{
-        margin-top: 20%;
-    }
-}
-@media screen and (max-width: 770px ){
-    .wrapper.content{
-        margin-top: 30%;
-    }
-}
