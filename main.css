@@ -74,9 +74,11 @@ i{
     top: 0;
     left: 0;
     display: -webkit-flex;
-	display: flex;
+    display: flex;
     align-items: center;
-	-webkit-align-items: center;
+    -webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
     overflow: hidden; 
     text-align:center;
 }
