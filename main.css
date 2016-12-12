@@ -5,7 +5,7 @@
   outline: 0;
 }
 body{
-	font: 400 18px/26px 'Ubuntu', sans-serif;
+	font: 400 18px/28px 'Ubuntu', sans-serif;
 	background:#fff;
     padding:10px;
 }
@@ -125,11 +125,25 @@ h1, h2{
 .container{
     margin-top:100px;
 }
+.container_text{
+    padding-bottom:40px;
+}
 .description{
     padding:10px 0;
 }
 .description_item:before{
     content: '\f00c';
+    font: normal 13px/1 'FontAwesome';
+    padding-right:10px;
+}
+.description_edu{
+    padding-bottom:12px;
+}
+.description_edu p{
+    font-size:14px;
+}
+.description_edu:before{
+    content: '\f19d';
     font: normal 13px/1 'FontAwesome';
     padding-right:10px;
 }
@@ -142,3 +156,7 @@ h1, h2{
     margin-bottom:80px;
 }
 
+
+@media screen and (max-width: 990px){ 
+    
+}
