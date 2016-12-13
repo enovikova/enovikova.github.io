@@ -164,4 +164,7 @@ h1, h2{
     .header_content{
         padding-top: 25px;
     }
+	h1, h2{
+	font-size:25px;
+	}
 }
