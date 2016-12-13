@@ -155,5 +155,10 @@ h1, h2{
     height: auto;
     margin-bottom:80px;
 }
+@media screen and(max-width: 1000px){
+    .content.portfolio{
+        color:red;
+    }
+}
 
 
