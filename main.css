@@ -157,14 +157,3 @@ h1, h2{
 }
 
 
-@media screen and (max-width: 1024px){ 
-    .fa.fa-envelope-o.fa-2x, .fa.fa-times.fa-2x{
-        font-size: 3em;
-    }
-    .header_content{
-        padding-top: 25px;
-    }
-	h1, h2{
-	font-size:25px;
-	}
-}
