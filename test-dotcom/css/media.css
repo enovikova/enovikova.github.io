@@ -76,7 +76,27 @@
     }
 }
 @media (max-width:1100px){
-     .tovar img{
+    
+    .navbar_cont{
+        display:none;
+        position:absolute;
+        top:79px;
+        left:0;
+        background: #c32429;
+    }
+    .navbar_item{
+        float:none;
+        padding:5px 40px;
+    }
+    .navbar_item a{
+        font-size:20px;
+    }
+    .fa.fa-bars{
+        display:inline;
+        line-height:80px;
+        color:white;
+        padding:0 20px; 
+    } .tovar img{
         margin-top:0;
     }
     .container-fluid{
@@ -95,16 +115,6 @@
 }
 
 @media (max-width:996px){
-    .body{
-        font-size: 22px;
-    }
-    .navbar_cont{
-        display:none;
-        position:absolute;
-        top:79px;
-        left:0;
-        background: #c32429;
-    }
     .navbar_item{
         float:none;
         padding:10px 40px;
@@ -112,14 +122,9 @@
     .navbar_item a{
         font-size:30px;
     }
-    .fa.fa-bars{
-        display:inline;
-        line-height:80px;
-        color:white;
-        padding:0 20px; 
-    }
     .container-fluid{
         background:none;
+        width:100%;
     }
     .container-fluid h1{
         font-size:64px;
