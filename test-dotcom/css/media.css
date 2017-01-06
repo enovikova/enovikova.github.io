@@ -1,0 +1,192 @@
+@media (max-width:1690px){
+    .body{
+        font-size:16px;
+    }
+    .container-fluid h1{
+        font-size:53px;
+        padding-top:60px;
+    }
+    .container-fluid h2{
+        font-size: 25px;
+    }
+    .description_item{
+        font-size:20px;
+        height: 33px;
+        line-height:33px;
+    } 
+    .price{
+        font-size:20px;
+        margin-top:-142px;
+    }  
+    .timer{
+       
+    }
+}
+
+@media (max-width:1400px){
+    .container-fluid h1{
+        font-size:46px;
+        padding-top:50px;
+    }
+    .container-fluid h2{
+        font-size: 22px;
+    }
+    .description{
+        padding-top:55px;
+    }
+    .description_item{
+        font-size:18px;
+        height: 30px;
+        line-height:30px;
+    } 
+    .price{
+        font-size:18px;
+        line-height: 18px;
+        margin-top:-100px;
+        padding-bottom:50px;
+    }
+    .new_price{
+        font-size:34px;
+        line-height: 34px;
+        padding:8px 0;
+    }
+    .btn_order_cover{
+        width: 212px;
+        height: 66px;
+        border-radius: 30px; 
+    }
+    .btn_order {
+        width: 200px;
+        height: 54px;
+        line-height: 50px;
+        border-radius: 26px;
+        font-size: 41px;
+    }
+    .timer{
+        width:206px;
+        height: 120px;
+    }
+    
+    .timer_number{
+        width:60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 30px;
+        font-size:30px;
+    }
+}
+@media (max-width:1100px){
+     .tovar img{
+        margin-top:0;
+    }
+    .container-fluid{
+        background-size:contain;
+    }
+    .col-md-4.description{
+        width:60%;
+    }
+    .price{
+        margin-top:-85px;
+        padding-right:40px;
+    }
+    .timer{
+        margin-top: 0;
+    }
+}
+
+@media (max-width:996px){
+    .body{
+        font-size: 22px;
+    }
+    .navbar_cont{
+        display:none;
+        position:absolute;
+        top:79px;
+        left:0;
+        background: #c32429;
+    }
+    .navbar_item{
+        float:none;
+        padding:10px 40px;
+    }
+    .navbar_item a{
+        font-size:30px;
+    }
+    .fa.fa-bars{
+        display:inline;
+        line-height:80px;
+        color:white;
+        padding:0 20px; 
+    }
+    .container-fluid{
+        background:none;
+    }
+    .container-fluid h1{
+        font-size:64px;
+    }
+    .container-fluid h2{
+        font-size:34px;
+    }
+    .tovar img{
+        width:70%;
+        height: auto;
+    }
+    .col-md-4.description{
+        width:100%;
+    }
+    .description_item{
+        height: 44px;
+        line-height:44px;
+        font-size:30px;
+        padding:6px 20px;
+    }
+    .timer{
+        width:366px;
+        height:150px;
+        margin-right:auto;
+        margin-left: auto;
+        margin-top: 70px;
+    }
+    .timer_name{
+        font-size:22px;
+    }
+    .time_text{
+        font-size:18px;
+    }
+    .timer_number{
+        width:100px;
+        height: 100px;
+        border-radius: 50px;
+        font-size:50px;
+        line-height: 100px;
+    }
+    .price{
+        font-size: 26px; 
+        line-height:26px;
+        margin-top:40px;
+        padding-right: 0;
+        text-align: center;
+    }
+        .new_price{
+        font-size:52px;
+        line-height: 52px;
+    }
+        .btn_order_cover{
+        width:272px;
+        height:87px;
+        float:none;
+        margin:auto;
+        border-radius: 30px;
+        
+    }
+    .btn_order{
+        position:absolute;
+        top:6px;
+        left:6px;
+        width:260px;
+        height:75px;
+        line-height:68px;
+        border-radius: 25px;
+        font-size:56px;
+    }
+    }
