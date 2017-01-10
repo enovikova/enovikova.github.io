@@ -1,0 +1,11 @@
+@keyframes move{
+    from {
+        height: 140px; 
+    }
+    50% {
+        height: 110px;
+    }
+    to {
+        height: 80px;
+    }
+}
