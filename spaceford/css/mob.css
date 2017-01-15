@@ -1,0 +1,199 @@
+
+/*-----TABLET-----*/
+@media (max-width:1200px) {
+    body{
+        font-size:16px;
+        line-height: 22px;
+        background: #ebecec;
+    }
+    .wrapper{
+        left:22px;
+        right:22px;
+    }
+    .block_item.user_galery{
+        padding-bottom:20px;
+    }
+    .search_input{
+        width:300px;
+    }
+    .user_photo, .user_data{
+        padding-right: 26px;
+        padding-left: 26px;
+    }
+}
+
+/*-----MOBILE-----*/
+@media (max-width:990px) {
+    .header{
+        height:120px;
+    }
+    .topmenu{
+        display: none;
+    }
+    .topmenu_mob{
+        display: block;
+        position: relative;
+        height:120px;
+    }
+    .topmenu_mob .mob{
+        color:#fefefe;
+    }
+    .mob_item1{
+        position: absolute;
+        left:30px;
+        font-size:80px;
+        line-height: 120px;
+    }
+    .mob_item2{
+        width:100%;
+        text-align: center;
+        font-size:60px;
+        line-height: 120px;
+    }
+    .wrapper{
+        background: #ebecec;
+    }
+    .block_item{
+        font-size:40px;
+        line-height: 54px;
+    }
+    .usercontent_items{
+        font-size:35px;
+        line-height: 49px;
+    }
+    .usercontent_menu{
+        font-size:42px;
+        line-height: 130px;
+    }
+    /*-----левая колонка .userinfo-----*/
+    .userinfo, .container{
+        top:120px;
+        bottom:auto;
+    }
+    .rightblock{
+        display: none;
+    }
+    .userinfo{
+        width:100%;
+        z-index: 400;
+    }
+    .userinfo .block_item{
+        margin-top:32px;
+        margin-bottom: 32px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .block_item{
+        width:80%;
+        margin:auto;
+    }
+    .name{
+        font-size:1.8em;
+        line-height: 1.8em;
+    }
+    .btn_down_wrap{
+        display: none;
+    }
+    .btn_slide_wrap{
+        position: absolute;
+        right:32px;
+        top:25px;
+        width:40px;
+        height:110px;
+        background: transparent;
+    }
+    .btn_slide{
+        background: inherit;
+        width:50px;
+        height:110px;
+    }
+    .btn_slide:before{
+        content:'\f0da';
+        font-family: 'FontAwesome';
+        font-size:110px;
+        color:#fefefe;
+    }
+    .btn_down:focus{
+        color:red;
+    }
+    .user_photo{
+        padding:58px 58px 74px 58px;
+    }
+    .online{
+        width:36px;
+        height:36px;
+        border-radius: 18px;
+        top:10%;
+        right:10%;
+    }
+    .user_data{
+        padding:10px 58px 30px 58px;
+        position: relative;
+    }
+    .evaluation{
+        position:absolute;
+        text-align: right;
+        width:50px;
+        bottom: 35px;
+        right:74px;
+    }
+    .evaluation_items{
+        display: none;
+    }
+    .block_item.user_galery{
+        padding:20px 20px 40px 20px;
+    }
+    .user_galery img, .owl-item{
+        height:200px;
+    }
+    /*-----центральная колонка CONTAINER-----*/
+    .container{
+        width:100%;
+        right:-100%;
+        left:auto;
+    }
+    .buttons_wrap{
+        display: none;
+    }
+    .usercontent{
+        margin-top:0;
+    }
+    .usercontent_tab{
+        margin-top:0;
+    }
+    .user_menu_wrap{
+        background: #ebecec;
+    }
+    .usercontent_up_photo{
+        width:20%;
+    }
+    .usercontent_items{
+        padding:40px;
+        margin-bottom:40px;
+    }
+    .main_photos_items{
+        height:400px;
+    }
+    .usercontent_main{
+        padding-top:40px;
+    }  
+    .usercontent_down .evaluation_num{
+        display:none;
+    }
+    ..border{
+        display: none;
+    }
+    #tab2 .usercontent_items{
+        margin-bottom: 40px;
+    }
+    .album_wrap img{
+        height:300px;
+    }
+    #tab4 .usercontent_up_photo{
+        width:20%;
+        padding:0;
+    }
+    .usercontent_items .table{
+        margin-top: 40px;
+    }
+}

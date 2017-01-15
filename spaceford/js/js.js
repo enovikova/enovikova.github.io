@@ -26,6 +26,16 @@ var main = function () {
         $('.buttons_wrap').removeClass('small');
     });
 
+    $('.btn_slide').click(function () {
+        $('.container').animate({
+            right: '0'
+        }, 600);
+         $('.userinfo').animate({
+            left: '-100%'
+        }, 600);
+    });
+    
+
     // carousel
     $('.owl-carousel').owlCarousel({
         
@@ -52,7 +62,8 @@ var main = function () {
         var tab = $(this).attr("href");
         $(".usercontent_tab").not(tab).removeClass("active");
         $(tab).addClass("active");
-    });    
+    }); 
+        
 }
 
 $(document).ready(main);

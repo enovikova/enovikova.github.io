@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spaceford - test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/font.css">
+    <!--fonts-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--carousel-->
+    <link rel="stylesheet" href="carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="carousel/owl.theme.default.min.css" />
+    <link rel="icon" tipe="image/png" href="img/favicon.png">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mob.css">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <!--cursor-->
+    <script src="https://cdn.rawgit.com/jwarby/jquery-awesome-cursor/master/dist/jquery.awesome-cursor.min.js"></script>
+    <!--carousel-->
+    <script src="carousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <!--top menu-->
+    <div class="header">
+        <div class="topmenu">
+            <div class="topmenu_right">
+                <button class="topmenu_btn btn_shadow logout">log <span class="bold">out</span></button>
+            </div>
+            <div class="topmenu_all">
+                <div class="search">
+                    <form action="get" class="search_form">
+                        <input type="text" name="search" placeholder="" class="search_input">
+                        <button type="submit" name="submit_search" class="search_btn btn_shadow">
+                        <span class="bold">search</span>
+                    </button>
+                    </form>
+                </div>
+                <div class="logo">
+                    <a href="" class="logo_item1">s<span class="bold">f</span></a>
+                    <a href="" class="logo_item2">space<span class="bold">ford</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="topmenu_mob">
+            <div class="mob mob_item1">
+                <a href="" class="">s<span class="bold">f</span></a>
+            </div>
+            <div class="mob mob_item2">
+                <span class="bold">My accaunt</span>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <!--левая колонка .userinfo-->
+        <div class="userinfo">
+            <div class="btn_slide_wrap">
+                <button class="btn_slide"></button>
+            </div>
+            <div class="block_item user_photo">
+                <span class="online"></span>
+                <img src="img/userpic.png" alt="" class="user_photo_pic">
+            </div>
+            <div class="block_item user_data">
+                <div class="evaluation">
+                    <div class="evaluation_num">10</div>
+                    <div class="evaluation_items">
+                        <div class="evaluation_positive">
+                            <span class="cub cub1"></span>
+                            <span class="cub cub2"></span>
+                            <span class="cub cub3"></span>
+                            <span class="cub cub4"></span>
+                            <span class="cub cub5">-</span>
+                        </div>
+                        <div class="evaluation_negatie">
+                            <span class="cub cub6">+</span>
+                            <span class="cub cub7"></span>
+                            <span class="cub cub8"></span>
+                            <span class="cub cub9"></span>
+                            <span class="cub cub10"></span>
+                        </div>
+                    </div>
+                </div>
+                <span class="name">Maya Swarovski</span>
+                <span class="profession">Graphic designer</span>
+                <span class="address">Almaty, Kazakhstan</span>
+            </div>
+            <!--galary-->
+            <div class="block_item user_galery owl-carousel owl-theme">
+                <div><img src="img/img1.png" alt=""></div>
+                <div><img src="img/img2.png" alt=""></div>
+                <div><img src="img/img4.png" alt=""></div>
+                <div><img src="img/img5.png" alt=""></div>
+            </div>
+            <div class="block_item someblock">some more info</div>
+            <div class="btn_down_wrap">
+                <button class="btn_down"></button>
+            </div>
+        </div>
+        <!--центральная колонка CONTAINER-->
+        <div class="container">
+            <div class="buttons_wrap">
+                <button class="square_btn tipe1"></button>
+                <button class="square_btn tipe2"></button>
+                <button class="square_btn tipe3"></button>
+            </div>
+            <div class="border"></div>
+            <div class="usercontent_menu">
+                <ul class="user_menu_wrap">
+                    <li class="user_menu_item"><a class="tab active" href="#tab1">blog</a></li>
+                    <li class="user_menu_item"><a class="tab" href="#tab2">subscribers</a></li>
+                    <li class="user_menu_item"><a class="tab" href="#tab3">album</a></li>
+                    <li class="user_menu_item"><a class="tab" href="#tab4">cv</a></li>
+                    <li class="user_menu_item"><a class="tab" href="#tab5">other</a></li>
+                </ul>
+            </div>
+            <div class="block usercontent">
+                <!--ВКЛАДКА 1-->
+                <div class="usercontent_tab active" id="tab1">
+                    <!--CONTENT-->
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <span class="online"></span>
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Maya Swarovski</div>
+                                <div class="data_date">15 september 11:15</div>
+                            </div>
+                        </div>
+                        <div class="usercontent_main">
+                            <div class="usercontent_main_photos">
+                                <div class="main_photos_items"><img src="img/img1.png" alt=""></div>
+                                <div class="main_photos_items"><img src="img/img3.png" alt=""></div>
+                                <div class="main_photos_items"><img src="img/img2.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="usercontent_down">
+
+                            <div class="evaluation">
+                                <div class="evaluation_num">10</div>
+                                <div class="evaluation_items">
+                                    <div class="evaluation_positive">
+                                        <span class="cub cub1"></span>
+                                        <span class="cub cub2"></span>
+                                        <span class="cub cub3"></span>
+                                        <span class="cub cub4"></span>
+                                        <span class="cub cub5">-</span>
+                                    </div>
+                                    <div class="evaluation_negatie">
+                                        <span class="cub cub6">+</span>
+                                        <span class="cub cub7"></span>
+                                        <span class="cub cub8"></span>
+                                        <span class="cub cub9"></span>
+                                        <span class="cub cub10"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CONTENT-->
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <span class="online"></span>
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Maya Swarovski</div>
+                                <div class="data_date">15 september 11:15</div>
+                            </div>
+                        </div>
+                        <div class="usercontent_main">
+                            <div class="usercontent_main_text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="usercontent_down">
+
+                            <div class="evaluation">
+                                <div class="evaluation_num">10</div>
+                                <div class="evaluation_items">
+                                    <div class="evaluation_positive">
+                                        <span class="cub cub1"></span>
+                                        <span class="cub cub2"></span>
+                                        <span class="cub cub3"></span>
+                                        <span class="cub cub4"></span>
+                                        <span class="cub cub5">-</span>
+                                    </div>
+                                    <div class="evaluation_negatie">
+                                        <span class="cub cub6">+</span>
+                                        <span class="cub cub7"></span>
+                                        <span class="cub cub8"></span>
+                                        <span class="cub cub9"></span>
+                                        <span class="cub cub10"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--ВКЛАДКА 2-->
+                <div class="usercontent_tab" id="tab2">
+                    <!--block-->
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <span class="online"></span>
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Fiona Min</div>
+                                <div class="data_date">
+                                    <div class="prof">Doctor</div>
+                                    <div class="">Toronto, Canada</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--block-->
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <span class="online"></span>
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Fiona Min</div>
+                                <div class="data_date">
+                                    <div class="prof">Doctor</div>
+                                    <div class="">Toronto, Canada</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--block-->
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <span class="online"></span>
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Fiona Min</div>
+                                <div class="data_date">
+                                    <div class="prof">Doctor</div>
+                                    <div class="">Toronto, Canada</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--ВКЛАДКА 3-->
+                <div class="usercontent_tab" id="tab3">
+                    <div class="usercontent_items album">
+                        <div class="album_wrap">
+                            <img src="img/img1.png" alt="" class="">
+                            <span class="album_name">Baikal</span>
+                        </div>
+                        <div class="album_wrap">
+                            <img src="img/img3.png" alt="" class="">
+                            <span class="album_name">Baikal</span>
+                        </div>
+                    </div>
+                </div>
+                <!--ВКЛАДКА 4-->
+                <div class="usercontent_tab" id="tab4">
+                    <div class="usercontent_items">
+                        <div class="usercontent_up">
+                            <div class="usercontent_up_photo">
+                                <img src="img/userpic.png" alt="" class="">
+                            </div>
+                            <div class="usercontent_up_data">
+                                <div class="data_name">Maya Swarovski</div>
+                                <div class="data_date">
+                                    <div class="prof">Graphic designer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn_edit">edit</a>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr class="">
+                                    <td class="bold">Location:</td>
+                                    <td colspan="2" class="">Almaty, Kazakhstan</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Profession:</td>
+                                    <td colspan="2" class="">Graphic designer</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Company:</td>
+                                    <td colspan="2" class="">Mechanical piano</td>
+                                </tr>
+                                <tr class="rowspan">
+                                    <td rowspan="2" class="bold">Edcation:</td>
+                                    <td class="rowspan_1st">AB school</td>
+                                    <td class="rowspan_1st">2010 - 2014</td>
+                                </tr>
+                                <tr class="rowspan">
+                                    <td class="rowspan_last">CD school</td>
+                                    <td class="rowspan_last">2008 - 2010</td>
+                                </tr>
+                                <tr class="rowspan bold">
+                                    <td rowspan="2" class="bold">Expiriense:</td>
+                                    <td class="rowspan_1st">AB company</td>
+                                    <td class="rowspan_1st">2014 - current</td>
+                                </tr>
+                                <tr class="rowspan">
+                                    <td class="rowspan_last">CD company</td>
+                                    <td class="rowspan_last">2008 - 2010</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Skills:</td>
+                                    <td colspan="2" class="">Graphic designer</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Honors and awards:</td>
+                                    <td colspan="2" class="">Some long text, some long text, some long text, some long text, some long text</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Honors and awards:</td>
+                                    <td colspan="2" class="">Some long text, some long text, some long text, some long text, some long text</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="bold">Languages:</td>
+                                    <td colspan="2" class="">English, Kazakh, Russian</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!--ВКЛАДКА 5-->
+                <div class="usercontent_tab" id="tab5">
+                    <div class="usercontent_items"></div>
+                </div>
+            </div>
+        </div>
+        <div class="rightblock"></div>
+    </div>
+</body>
+
+</html>
