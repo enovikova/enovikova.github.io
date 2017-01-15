@@ -27,9 +27,7 @@ var main = function () {
     });
 
     $('.btn_slide').click(function () {
-        $('.container').animate({
-            right: '0'
-        }, 600);
+        $('.container').show();
          $('.userinfo').animate({
             left: '-100%'
         }, 600);

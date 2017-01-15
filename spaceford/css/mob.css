@@ -52,6 +52,9 @@
     }
     .wrapper{
         background: #ebecec;
+        width:100%;
+        left:0;
+        right:0;
     }
     .block_item{
         font-size:40px;
@@ -75,6 +78,8 @@
     }
     .userinfo{
         width:100%;
+        right:0;
+        left:0;
         z-index: 400;
     }
     .userinfo .block_item{
@@ -148,9 +153,10 @@
     }
     /*-----центральная колонка CONTAINER-----*/
     .container{
+        display:none;
         width:100%;
-        right:-100%;
-        left:auto;
+        right:0;
+        left:0;
     }
     .buttons_wrap{
         display: none;
