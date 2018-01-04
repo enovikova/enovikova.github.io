@@ -130,8 +130,7 @@ h3{
 .block_two{
 	width:100%;
 	margin-top: 500px;
-	padding-top: 600px;
-	height:600px;
+	padding: 600px 0 40px 0;
 }
 .block_two.scroll{
 	margin-top:-260px;
@@ -169,7 +168,9 @@ h3{
 	width:100%;
 	height:auto;
 }
-
+.block_light{
+	height:400px;
+}
 /*MEDIA*/
 @media (min-width:1200px){
 	.col-2{
