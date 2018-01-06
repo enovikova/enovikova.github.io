@@ -37,10 +37,10 @@ header, .content{
     -moz-justify-content: space-between;
     width:100%;
     color:#fff;
-    font-size:2em;
+    font-size:20px;
     font-weight: 500;
 }
-.logo{
+.logo, .phone{
     padding:40px 0 30px 0;
 }
 .menu_container{
