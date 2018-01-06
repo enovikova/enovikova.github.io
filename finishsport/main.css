@@ -28,6 +28,18 @@ header, .content{
     max-width: 1020px;
     margin:auto;
 }
+.head_cont{
+    display:flex;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    display: -moz-flex;
+    -moz-justify-content: space-between;
+    width:100%;
+    color:#fff;
+    font-size:2em;
+    font-weight: 500;
+}
 .logo{
     padding:40px 0 30px 0;
 }
